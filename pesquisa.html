@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 7 ]>  <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>  <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>  <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!-- Meta -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta name="robots" content="" />
+<meta name="description" content="" />
+<meta name="format-detection" content="telephone=no">
+<!-- Favicons Icon -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<!-- Page Title Here -->
+<title>Rennum Autos</title>
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+	<![endif]-->
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/plugins.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+<link rel="stylesheet" type="text/css" href="css/templete.min.css">
+<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+<!-- Revolution Slider Css -->
+<link rel="stylesheet" type="text/css" href="plugins/revolution/v5.4.3/css/settings.css">
+<!-- Revolution Navigation Style -->
+<link rel="stylesheet" type="text/css" href="plugins/revolution/v5.4.3/css/navigation.css">
+<script src="https://kit.fontawesome.com/f4dd4e07cd.js" crossorigin="anonymous"></script>
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="bg">
+<div class="page-wraper">
+<div id="loading-area"></div>
+    <!-- header -->
+    <header class="site-header header-transparent">
+		
+		<!-- main header -->
+        <div class="sticky-header main-bar-wraper">
+            <div class="main-bar clearfix ">
+                <div class="container clearfix">
+                    <!-- website logo -->
+                    <div class="logo-header mostion">
+						<a href="index.html"><img src="images/logo-light.png" class="logo" alt=""></a>
+					</div>
+                    <!-- nav toggle button -->
+                    <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed" aria-expanded="false" > 
+						<i class="fa fa-bars"></i>
+					</button>
+                    <!-- extra nav -->
+                    <div class="extra-nav">
+                        <div class="extra-cell">
+                            <button id="quik-search-btn" type="button" class="site-button-link"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Quik search -->
+                    <div class="dlab-quik-search bg-primary ">
+                        <form action="#">
+                            <input name="search" value="" type="text" class="form-control" placeholder="O Que Deseja Buscar?">
+                            <span id="quik-search-remove"><i class="fa fa-close"></i></span>
+                        </form>
+                    </div>
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse">	
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="javascript:;">Login</a></li>
+							<li><a href="javascript:;">Criar Conta</a></li>
+							<li><a href="javascript:;">Contatos</a></li>
+							<li><button class="site-button button-lg btn-block" type="submit">COMEÇAR A VENDER</button></li>
+							
+							
+							
+						</ul>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!-- main header END -->
+    </header>
+    <!-- header END -->
+    <!-- Content -->
+    <div class="page-content" style="padding-top: 65px;">
+        
+        
+        <!-- Breadcrumb row END -->
+        <div class="section-full content-inner bg-white">
+            <div class="container">
+                <div class="row">
+                    <!-- Side bar start -->
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                        <aside  class="side-bar">
+                            <div class="widget recent-posts-entry">
+								<h4 class="widget-title"><i class="fa fa-search"></i> Pesquisa Avançada</h4>
+								<div class="dlab-accordion advanced-search toggle" id="accordion1">
+									<div class="panel">
+										<div class="acod-head">
+											
+											<h5 class="acod-title">
+												
+												<a data-toggle="collapse" href="#city" class="collapsed">
+													Estado | Cidade
+												</a> 
+											</h5>
+										</div>
+										<div id="estado" class="acod-body collapse in">
+											<div class="acod-content">
+												<div class="input-group">
+													<select class="form-control">
+														<option>Seu Estado</option>
+														<option>Minas Gerais</option>
+														<option>São Paulo</option>
+														<option>Rio de Janeiro</option>
+														<option>Belo Horizonte</option>
+														<option>Santa Catarina</option>
+														<option>Brasília</option>
+														
+													</select>
+												</div>
+											</div>
+										</div>
+										<div id="city" class="acod-body collapse in">
+											<div class="acod-content">
+												<div class="input-group">
+													<select class="form-control">
+														<option>Sua Cidade</option>
+														<option>Ipatinga</option>
+														<option>Coronel Fabrociano</option>
+														<option>Timóteo</option>
+														<option>Belo Horizonte</option>
+														<option>Governador Valadares</option>
+														<option>Caratinga</option>
+														
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="acod-head">
+											<h5 class="acod-title"> 
+												<a data-toggle="collapse" href="#preco" class="collapsed">
+													Preço
+												</a> 
+											</h5>
+										</div>
+										<div id="preco" class="acod-body collapse in">
+											<div class="acod-content">
+												<div class="input-group">
+													<select class="form-control">
+														<option>Todos os Valores</option>
+														<option>ATÉ R$ 10.000</option>
+														<option>R$10.001 - R$20.000</option>
+														<option>R$20.001 - R$30.000</option>
+														<option>R$30.001 - R$50.000</option>
+														<option>R$50.001 - R$80.000</option>
+														<option>R$80.001 - R$100.000</option>
+														<option>+ R$100.000</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="acod-head">
+											<h5 class="acod-title"> 
+												<a data-toggle="collapse"  href="#brand" class="collapsed" >
+													Marca
+												</a>
+											</h5>
+										</div>
+										<div id="brand" class="acod-body collapse in">
+											<div class="acod-content">
+												<input type="search" id="container-search" value="" class="form-control" placeholder="Procurar">
+												<div class="product-brand" id="searchable-area">
+													<div class="search-content">
+														<input id="brand1" type="checkbox">
+														<label for="brand1" class="search-content-area">Fiat </label>
+													</div>
+													<div class="search-content">
+														<input id="brand2" type="checkbox">
+														<label for="brand2" class="search-content-area">Chevrolet  </label>
+													</div>
+													<div class="search-content">
+														<input id="brand3" type="checkbox">
+														<label for="brand3"  class="search-content-area">Wolksvagem </label>
+													</div>
+													<div class="search-content">
+														<input id="brand4" type="checkbox">
+														<label for="brand4"  class="search-content-area">Ferrari </label>
+													</div>
+													<div class="search-content">
+														<input id="brand5" type="checkbox">
+														<label for="brand5"  class="search-content-area">Ford</label>
+													</div>
+													<div class="search-content">
+														<input id="brand6" type="checkbox">
+														<label for="brand6"  class="search-content-area">Porsche </label>
+													</div>
+													<div class="search-content">
+														<input id="brand7" type="checkbox">
+														<label for="brand7"  class="search-content-area">Kawasaki </label>
+													</div>
+													<div class="search-content">
+														<input id="brand8" type="checkbox">
+														<label for="brand8"  class="search-content-area">Suzuki </label>
+													</div>
+													<div class="search-content">
+														<input id="brand9" type="checkbox">
+														<label for="brand9"  class="search-content-area">Mazda </label>
+													</div>
+													<div class="search-content">
+														<input id="brand10" type="checkbox">
+														<label for="brand10"  class="search-content-area">Renault </label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="acod-head">
+											<h5 class="acod-title"> 
+												<a data-toggle="collapse"  href="#fuel-type" class="collapsed" >
+													Combustível
+												</a>
+											</h5>
+										</div>
+										<div id="fuel-type" class="acod-body collapse">
+											<div class="acod-content">
+												<div class="product-brand">
+													<div class="search-content">
+														<input id="fuel1" type="checkbox">
+														<label for="fuel1"  class="search-content-area">Diesel </label>
+													</div>
+													<div class="search-content">
+														<input id="fuel2" type="checkbox">
+														<label for="fuel2"  class="search-content-area">Gasolina  </label>
+													</div>
+													<div class="search-content">
+														<input id="fuel3" type="checkbox">
+														<label for="fuel3"  class="search-content-area">Álcool </label>
+													</div>
+													<div class="search-content">
+														<input id="fuel4" type="checkbox">
+														<label for="fuel4"  class="search-content-area">Gás </label>
+													</div>
+													<div class="search-content">
+														<input id="fuel5" type="checkbox">
+														<label for="fuel5"  class="search-content-area">Elétrico </label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="panel">
+										<div class="acod-head">
+											<h5 class="acod-title"> 
+												<a data-toggle="collapse"  href="#transmission" class="collapsed" >
+													Transmissão
+												</a>
+											</h5>
+										</div>
+										<div id="transmission" class="acod-body collapse in">
+											<div class="acod-content">
+												<div class="vehicle-type clearfix transmission">
+													<div class="btn-group " data-toggle="buttons">
+														<div class="btn btn-primary">
+															<input type="checkbox" checked>
+															<h5>Automática</h5>
+															<span>278</span>
+														</div>
+														<div class="btn btn-primary">
+															<input type="checkbox" >
+															<h5>Manual</h5>
+															<span>536</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								
+							</div>
+                        </aside>
+                    </div>
+                    <!-- Side bar END -->
+                    <!-- left part start -->
+                    <div class="col-sm-8 col-md-8 col-lg-9" style="padding-top: 25px;">
+                        <div class="row">
+							
+                            <div id="masonry" class="dlab-blog-grid-3 used-car-info">
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic4.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic3.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+                                <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic1.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											<div class="m-t10"><i class="flaticon-placeholder font-18"></i> Marmora Road Chi Minh City </div>
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic2.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											<div class="m-t10"><i class="flaticon-placeholder font-18"></i> Marmora Road Chi Minh City </div>
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic3.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic4.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic1.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								<div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="dlab-feed-list m-b30 text-left">
+										<div class="dlab-media"> 
+											<a href="detalhes.html"><img src="images/car/pic2.jpg" alt=""></a> 
+										</div>
+										<div class="dlab-info text-left">
+											<h4 class="dlab-title"><a href="used-car-details.html">Hyundai EON LPG Magna Plus </a></h4>
+											<p class="dlab-price"><span class="text-black">$26,598</span></p>
+											
+											<div class="icon-box-btn text-center m-tb20">
+												<ul class="clearfix">
+													<li>2019</li>
+													<li>Manual</li>
+													<li>Diesel </li>
+												</ul>
+											</div>
+											<div class="view-seller-dtl">
+												<a href="detalhes.html" class="site-button btn-block">MAIS DETALHES</a>
+											</div>
+										</div>
+									</div>
+                                </div>
+								
+							</div>
+                            <!-- blog grid END -->
+                            <!-- Pagination  -->
+                            <div class="pagination-bx col-lg-12 clearfix ">
+                                <ul class="pagination">
+                                    <li class="previous"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Pagination END -->
+                        </div>
+						
+                    </div>
+                    <!-- left part END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content END-->
+	<!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+             <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-6 footer-col-4">
+                        <div class="widget widget_about">
+                            <div class="logo-footer"><img src="images/logo-light.png" alt=""></div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 footer-col-4">
+                        <div class="widget widget_services">
+                            <h4 class="m-b15 text-uppercase">Menu</h4>
+                            <div class="dlab-separator bg-primary"></div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Criar Conta</a></li>
+                                <li><a href="#">Contatos</a></li>
+                                <li><a href="#">Começar a Vender</a></li>
+                                <li><a href="pesquisa.html">Busca Avançada</a></li>
+                            </ul>
+                        </div>
+                    </div>
+					
+                    <div class="col-md-4 col-sm-6 col-xs-6 footer-col-4">
+                        <div class="widget ">
+                            <h4 class="m-b15 text-uppercase">Cadastre-se </h4>
+                            <div class="dlab-separator bg-primary"></div>
+                            <p class="m-tb20">Receba novas postagens e produtos diretamente no seu e-mail. Mantenha-se Atualizado!</p>
+							<form action="script/mailchamp.php" method="post" class="dlab-subscribe-form dzSubscribe">
+								<div class="dzSubscribeMsg"></div>
+								<div class="input-group m-b15">
+									<input name="dzEmail" required="required" type="email" class="form-control" placeholder="Digite seu E-mail">
+								</div>
+								<div class="input-group">
+									<button name="submit" value="Submit" type="submit" class="site-button btn-block">
+										INSCREVA-SE <i class="fa fa-angle-right font-18 m-l10"></i>
+									</button>
+								</div>
+							</form>
+                        </div>
+                    </div>
+                </div>
+				<div class="clearfix">
+					<ul class="full-social-icon clearfix">
+						<li class="fb col-md-3 col-sm-6 col-xs-6 m-b30">
+							<a href="#"><i class="fa fa-facebook"></i> Facebook </a>
+						</li>
+						<li class="tw col-md-3 col-sm-6 col-xs-6 m-b30">
+							<a href="#"><i class="fa fa-twitter"></i> Twitter </a>
+						</li>
+						<li class="gplus col-md-3 col-sm-6 col-xs-6 m-b30">
+							<a href="#"><i class="fa fa-youtube"></i> Youtube </a>
+						</li>
+						<li class="linkd col-md-3 col-sm-6 col-xs-6 m-b30">
+							<a href="#"><i class="fa fa-instagram"></i> Instagram </a>
+						</li>
+					</ul>
+				</div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-left"> © Copyright 2021 Grupo Rennum Desenvolvimento <a href="http://netsystem.com.br/" target="_blank">NetSystem</a> </div>
+                    <div class="col-md-6 col-sm-6 text-right "> 
+						<a href="page-about.html"> Quem Somos</a> | 
+						<a href="page-privacy-policy.html"> Fale Conoscos</a> | 
+						<a href="page-about.html"> Política de Privacidade</a> |
+						<a href="page-about.html"> Cookies</a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer END-->
+    <button class="scroltop fa fa-chevron-up" ></button>
+</div>
+<!-- JavaScript  files ========================================= -->
+<script  src="js/jquery.min.js"></script>
+<!-- jquery.min js -->
+<script  src="js/bootstrap.min.js"></script>
+<!-- bootstrap.min js -->
+<script  src="js/bootstrap-select.min.js"></script>
+<!-- Form js -->
+<script  src="js/jquery.bootstrap-touchspin.js"></script>
+<!-- Form js -->
+<script  src="js/magnific-popup.js"></script>
+<!-- magnific-popup js -->
+<script  src="js/waypoints-min.js"></script>
+<!-- waypoints js -->
+<script  src="js/counterup.min.js"></script>
+<!-- counterup js -->
+<script src="js/imagesloaded.js"></script>
+<!-- masonry  -->
+<script src="js/masonry-3.1.4.js"></script>
+<!-- masonry  -->
+<script src="js/masonry.filter.js"></script>
+<!-- masonry  -->
+<script  src="js/owl.carousel.js"></script>
+<!-- OWL  Slider  -->
+<script src="plugins/rangeslider/rangeslider.js" ></script>
+<!-- rangeslider fuctions -->
+<script src="js/jquery.searchable-1.0.0.min.js"></script>
+<!-- searchable fuctions -->
+<script  src="js/dz.carousel.min.js"></script>
+<!-- sortcode fuctions  -->
+<script  src="js/dz.ajax.js"></script>
+<!-- dz ajax fuctions  -->
+
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.hoverdir.js"></script>	
+<script  src="js/custom.min.js"></script>
+</body>
+</html>
